@@ -11,7 +11,7 @@
     <body class="container">
            
         <div class="row mt-5">
-            <div class="col">
+            <div class="col-sm-6">
                 
                 <h1>Google Signin</h1>
                 <hr>
@@ -36,6 +36,25 @@
                 <button id="g_id_signout">Sign Out</button>        
             
             </div>
+
+            <div class="col mt-5">
+
+                <h1>Login manual</h1>
+                <hr>
+
+                <form class="d-grid">
+
+                    <input type="text" name="correo" class="form-control mb-2" placeholder="Correo" />
+                    <input type="text" name="password" class="form-control mb-2" placeholder="Password" />
+
+                <button type="submit" class="btn btn-primary">
+                    Ingresar
+                </button>
+
+                </form>
+
+            </div>
+
         </div>
 
         <script src="./js/auth.js" ></script>
