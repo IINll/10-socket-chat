@@ -4,7 +4,7 @@ const miFormulario = document.querySelector('form');
 
 const url = ( window.location.hostname.includes('localhost') )
             ? 'http://localhost:8080/api/auth/'
-            : 'https://socketchat-10.herokuapp.com/api/auth/';
+            : 'https://aqueous-lowlands-11083.herokuapp.com/api/auth/';
 
 
 miFormulario.addEventListener('submit', ev => {
