@@ -51,7 +51,8 @@ function handleCredentialResponse(response) {
     .then( r => r.json() )
     .then( ({ token }) => {
         console.log( token );
-        localStorage.setItem('token', token )
+        localStorage.setItem('token', token );
+        window.location = 'chat.html';
     })
     .catch( console.warn )
 }
